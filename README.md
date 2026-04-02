@@ -54,3 +54,55 @@ flowchart TD
     E --> F[Platform Adapter Agent]
     F --> G[Logger]
     G --> H[Streamlit Demo UI]
+
+Example Use Case
+
+This repo includes sample product inputs such as:
+
+an AI mental health companion
+an AI study support tool
+
+For each product, the workflow can generate:
+
+landing page copy
+LinkedIn post
+X post
+FAQ snippet
+
+It then critiques and refines the content to improve overall quality.
+
+Project Structure
+agentic-content-workflow/
+│
+├── app.py
+├── main.py
+├── requirements.txt
+├── README.md
+├── .env.example
+│
+├── data/
+│   └── sample_products.json
+│
+├── prompts/
+│   ├── strategist.txt
+│   ├── generator.txt
+│   ├── critic.txt
+│   ├── refiner.txt
+│   └── adapter.txt
+│
+├── src/
+│   ├── config.py
+│   ├── llm.py
+│   ├── schemas.py
+│   ├── workflow.py
+│   ├── logger.py
+│   └── utils.py
+│
+└── artifacts/
+    └── results.json
+Tech Stack
+Python
+OpenAI API
+Streamlit
+Pydantic
+python-dotenv
