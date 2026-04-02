@@ -174,7 +174,7 @@ agentic-content-workflow/
 │
 └── artifacts/
     └── results.json
-
+```
 ## Tech Stack
 
 - Python
@@ -190,3 +190,4 @@ agentic-content-workflow/
 ```bash
 git clone https://github.com/your-username/agentic-content-workflow.git
 cd agentic-content-workflow
+```
