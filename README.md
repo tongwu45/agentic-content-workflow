@@ -10,6 +10,10 @@ This project explores how AI workflows can support growth, discovery, and distri
 
 The workflow is designed to simulate the kind of work involved in AI-native growth roles, where the goal is not just to write content, but to build repeatable systems that improve messaging quality over time.
 
+## Demo Notes
+
+This project is designed to support both live LLM API calls and a mock fallback mode for demo purposes. The fallback mode allows the workflow to run even when API quota or billing constraints are present, while still demonstrating workflow structure, prompt design, and iterative refinement.
+
 ## Why I Built This
 
 I built this project to demonstrate how LLM-based workflows can be used for:
