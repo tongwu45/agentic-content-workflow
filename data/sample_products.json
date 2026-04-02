@@ -1,0 +1,33 @@
+[
+  {
+    "product_name": "CalmLoop",
+    "category": "AI mental health companion",
+    "audience": "young adults who feel lonely or anxious late at night",
+    "features": [
+      "24/7 multilingual emotional support",
+      "gentle journaling prompts",
+      "non-judgmental conversation",
+      "privacy-aware positioning"
+    ],
+    "tone": "calm, empathetic, trustworthy",
+    "constraints": [
+      "do not claim to replace therapy",
+      "avoid overpromising clinical outcomes"
+    ]
+  },
+  {
+    "product_name": "StudyLift",
+    "category": "AI study support tool",
+    "audience": "college students preparing for exams",
+    "features": [
+      "study planning",
+      "practice quizzes",
+      "encouragement and accountability"
+    ],
+    "tone": "motivating, clear, supportive",
+    "constraints": [
+      "avoid exaggerated claims",
+      "keep messaging concise"
+    ]
+  }
+]
