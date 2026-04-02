@@ -2,6 +2,7 @@
 # Agentic Content Workflow
 
 A multi-step LLM workflow for generating, critiquing, refining, and adapting product content across channels.
+This project demonstrates how AI workflows can support growth and discovery work through structured content generation, critique, refinement, and channel adaptation. It is built as a lightweight prototype to simulate agent-style systems for messaging and distribution.
 
 ## Overview
 
