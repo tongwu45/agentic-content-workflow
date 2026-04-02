@@ -188,6 +188,101 @@ agentic-content-workflow/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/agentic-content-workflow.git
+git clone https://github.com/tongwu45/agentic-content-workflow.git
 cd agentic-content-workflow
 ```
+### 2. Clone the repository
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+On Windows:
+```bash
+.venv\Scripts\activate
+```
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Add environment variables
+Copy the example file:
+```bash
+cp .env.example .env
+```
+Then add your OpenAI API key in .env:
+```bash
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+## How to Run
+### Run the command-line workflow
+```bash
+python main.py
+```
+### Run the Streamlit demo
+```bash
+streamlit run app.py
+```
+## Sample Input Format
+```bash
+{
+  "product_name": "CalmLoop",
+  "category": "AI mental health companion",
+  "audience": "young adults who feel lonely or anxious late at night",
+  "features": [
+    "24/7 multilingual emotional support",
+    "gentle journaling prompts",
+    "non-judgmental conversation",
+    "privacy-aware positioning"
+  ],
+  "tone": "calm, empathetic, trustworthy",
+  "constraints": [
+    "do not claim to replace therapy",
+    "avoid overpromising clinical outcomes"
+  ]
+}
+```
+## Evaluation Criteria
+The Critic Agent scores content using the following dimensions:
+
+clarity
+trustworthiness
+specificity
+empathy
+platform fit
+spamminess
+
+These scores are used to guide refinement and simulate a lightweight feedback loop.
+
+## What This Project Demonstrates
+This project is meant to show:
+
+workflow design for LLM-based systems
+multi-step content generation and revision
+agent-style task separation
+structured prompt design
+system thinking for growth and discovery work
+
+It is not meant to be a production marketing system. Instead, it is a prototype that demonstrates how AI can support content and distribution workflows.
+
+## Limitations
+Uses sample product inputs instead of proprietary company data
+Evaluation is model-based, not human-labeled
+Does not include live traffic or conversion metrics
+Does not yet measure real-world channel performance
+
+## Future Improvements
+
+Potential next steps include:
+
+adding human evaluation
+comparing multiple prompt strategies
+testing how different product descriptions affect LLM recommendations
+adding retrieval grounding for product facts
+storing results in a database instead of a local JSON file
+## Author
+
+Built by Tong Wu as an exploration of AI workflows for growth, discovery, and distribution.
+
