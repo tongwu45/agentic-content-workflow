@@ -259,46 +259,57 @@ streamlit run app.py
 ## Evaluation Criteria
 The Critic Agent scores content using the following dimensions:
 
-clarity
+- clarity
 
-trustworthiness
+- trustworthiness
 
-specificity
+- specificity
 
-empathy
+- empathy
 
-platform fit
+- platform fit
 
-spamminess
+- spamminess
 
 These scores are used to guide refinement and simulate a lightweight feedback loop.
 
 ## What This Project Demonstrates
 This project is meant to show:
 
-workflow design for LLM-based systems
-multi-step content generation and revision
-agent-style task separation
-structured prompt design
-system thinking for growth and discovery work
+- workflow design for LLM-based systems
+  
+- multi-step content generation and revision
+  
+- agent-style task separation
+  
+- structured prompt design
+  
+- system thinking for growth and discovery work
 
 It is not meant to be a production marketing system. Instead, it is a prototype that demonstrates how AI can support content and distribution workflows.
 
 ## Limitations
-Uses sample product inputs instead of proprietary company data
-Evaluation is model-based, not human-labeled
-Does not include live traffic or conversion metrics
-Does not yet measure real-world channel performance
+- Uses sample product inputs instead of proprietary company data
+  
+- Evaluation is model-based, not human-labeled
+  
+- Does not include live traffic or conversion metrics
+  
+- Does not yet measure real-world channel performance
 
 ## Future Improvements
 
 Potential next steps include:
 
-adding human evaluation
-comparing multiple prompt strategies
-testing how different product descriptions affect LLM recommendations
-adding retrieval grounding for product facts
-storing results in a database instead of a local JSON file
+- adding human evaluation
+  
+- comparing multiple prompt strategies
+  
+- testing how different product descriptions affect LLM recommendations
+  
+- adding retrieval grounding for product facts
+  
+- storing results in a database instead of a local JSON file
 ## Author
 
 Built by Tong Wu as an exploration of AI workflows for growth, discovery, and distribution.
