@@ -60,7 +60,7 @@ flowchart TD
 This repo includes sample product inputs such as:
 - an AI mental health companion
 - an AI study support tool
-
+<img width="927" height="640" alt="截屏2026-04-01 下午9 38 17" src="https://github.com/user-attachments/assets/bda6796f-b99d-4310-a2c6-23b46f5c2174" />
 For each product, the workflow can generate:
 - landing page copy
 - LinkedIn post
@@ -245,6 +245,7 @@ streamlit run app.py
   ]
 }
 ```
+
 ## Evaluation Criteria
 The Critic Agent scores content using the following dimensions:
 
