@@ -174,3 +174,19 @@ agentic-content-workflow/
 │
 └── artifacts/
     └── results.json
+
+## Tech Stack
+
+- Python
+- OpenAI API
+- Streamlit
+- Pydantic
+- python-dotenv
+
+## Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/agentic-content-workflow.git
+cd agentic-content-workflow
