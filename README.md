@@ -81,6 +81,8 @@ Below is an example of how the workflow transforms a product input through gener
 An AI mental health companion for young adults who feel lonely or anxious late at night.
 
 ### Draft Output
+<img width="1320" height="531" alt="截屏2026-04-01 下午10 05 34" src="https://github.com/user-attachments/assets/321ea042-c833-4cca-bb84-8854c6e138e8" />
+<img width="1270" height="427" alt="截屏2026-04-01 下午10 06 35" src="https://github.com/user-attachments/assets/057780cc-ffad-4edf-b522-a7175fecf3e7" />
 
 **Landing Page Copy**  
 CalmLoop is an AI mental health companion that offers emotional support whenever you need it. It helps users feel less alone through multilingual conversations, gentle journaling prompts, and a calm, non-judgmental experience.
@@ -96,6 +98,9 @@ Feeling anxious or alone late at night? CalmLoop offers multilingual AI support,
 No. CalmLoop is designed as a supportive companion and reflection tool, not a replacement for professional mental health care.
 
 ### Critic Feedback
+
+<img width="576" height="648" alt="截屏2026-04-01 下午9 40 43" src="https://github.com/user-attachments/assets/ff4ed1ad-a3a4-456c-ada5-6fb7e5ce3740" />
+
 
 **Scores**
 - Clarity: 4/5
