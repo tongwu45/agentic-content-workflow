@@ -53,7 +53,7 @@ flowchart TD
     E --> F[Platform Adapter Agent]
     F --> G[Logger]
     G --> H[Streamlit Demo UI]
-
+```
 Example Use Case
 
 This repo includes sample product inputs such as:
