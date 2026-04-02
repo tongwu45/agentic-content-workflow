@@ -259,12 +259,17 @@ streamlit run app.py
 ## Evaluation Criteria
 The Critic Agent scores content using the following dimensions:
 
--clarity
--trustworthiness
--specificity
--empathy
--platform fit
--spamminess
+clarity
+
+trustworthiness
+
+specificity
+
+empathy
+
+platform fit
+
+spamminess
 
 These scores are used to guide refinement and simulate a lightweight feedback loop.
 
