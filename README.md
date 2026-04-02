@@ -4,13 +4,12 @@
 A multi-step LLM workflow for generating, critiquing, refining, and adapting product content across channels.
 This project demonstrates how AI workflows can support growth and discovery work through structured content generation, critique, refinement, and channel adaptation. It is built as a lightweight prototype to simulate agent-style systems for messaging and distribution.
 
+
 ## Overview
 
 This project explores how AI workflows can support growth, discovery, and distribution work. Instead of generating content in one step, the system uses multiple agent-style stages to transform product information into clearer, more trustworthy, and more platform-appropriate content.
 
 The workflow is designed to simulate the kind of work involved in AI-native growth roles, where the goal is not just to write content, but to build repeatable systems that improve messaging quality over time.
-
-## Demo Notes
 
 This project is designed to support both live LLM API calls and a mock fallback mode for demo purposes. The fallback mode allows the workflow to run even when API quota or billing constraints are present, while still demonstrating workflow structure, prompt design, and iterative refinement.
 
